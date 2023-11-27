@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #D9C0A6;
+    color: aliceblue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 22px 22px;
+    z-index: 1;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    align-content: flex-end; 
+    margin: 0 15px;
+    font-size: 15px;
+    font-family: 'Caprasimo', cursive;
+
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+#bebidas{
+    text-align: center;
+}
+
+.bebidas-título{
+    padding: 50px 0;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    background-color: #7b5943;
+    color: black;
+}
+
+.bebidas-imagem{
+    width: 120px;
+}
+
+.bebidas-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    font-family: 'Caprasimo', cursive;
+    padding: 20px 12px;
+    background-color:#B6886C;
+    color: black;
+}
+
+.bebidas-texto{
+    padding: 10px 0;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    background-color: #c9b1a2;
+    color: black;
+}
+
+.texto{
+    padding: 10px 0;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    background-color: #c9b1a2;
+    color: black;
+}
+
+#comidas{
+    text-align: center;
+}
+
+.comidas-título{
+    padding: 50px 0;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    background-color: #7b5943;
+    color: black;
+}
+
+.comidas-imagem{
+    width: 120px;
+}
+
+.comidas-todos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-family: 'Caprasimo', cursive;
+    padding: 20px 12px;
+    background-color:#B6886C;
+    color: black;
+}
+
+
+#livros{
+    text-align: center;
+}
+
+.livros-título{
+    padding: 50px 0;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    background-color: #7b5943;
+    color: black;
+}
+
+.livros-imagem{
+    width: 160px;
+}
+
+.livros-todos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    font-family: 'Caprasimo', cursive;
+    padding: 20px 12px;
+    background-color:#B6886C;
+    color: black;
+}
+
+.exemplos-livros{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Caprasimo', cursive;
+    padding: 20px 12px;
+    background-color:#B6886C;
+    color: black;
+    text-align: center;
+}
+
+.rodapé{
+    background-color: #D9C0A6;
+    text-align: center;
+    padding: 22px 22px;
+}
+
+.rodapé-imagem{
+    height: 40px;
+}
