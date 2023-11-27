@@ -133,6 +133,24 @@
     text-align: center;
 }
 
+.cupons{
+    display: grid;
+    font-family: 'Caprasimo', cursive;
+    padding: 20px 12px;
+    background-color:#B6886C;
+    color: black;
+    text-align: center;
+}
+
+.localização{
+    display: grid;
+    font-family: 'Caprasimo', cursive;
+    padding: 20px 12px;
+    background-color:#B6886C;
+    color: black;
+    text-align: center;
+}
+
 .rodapé{
     background-color: #D9C0A6;
     text-align: center;
